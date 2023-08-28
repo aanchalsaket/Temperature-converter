@@ -95,3 +95,8 @@ input{
     cursor: pointer;
     transition: 0.3s;
 }
+
+.button button:hover{
+    background: #000;
+    color: #fff;
+}
