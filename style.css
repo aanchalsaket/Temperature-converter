@@ -32,3 +32,50 @@ body{
     color: #fff;
     letter-spacing: 5px;
 }
+
+h1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#celcius, #fahrenheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+/* for chrome, safari, edge, opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input{
+    -moz-appearance: textfield;
+}
+
+.icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: rgb(17, 65, 48);
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
