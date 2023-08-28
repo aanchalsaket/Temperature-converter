@@ -35,3 +35,9 @@ kelvinInput.addEventListener('input', function(){
     celciusInput.value = roundNumber(cTemp);
     fahrenheitInput.value = roundNumber(fTemp);
 })
+
+btn.addEventListener('click', ()=>{
+    celciusInput.value = "";
+    fahrenheitInput.value = "";
+    kelvinInput.value = "";
+})
